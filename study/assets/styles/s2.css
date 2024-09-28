@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+}
+
+h2 {
+    color: aqua;
+}
+
+h3 {
+    color: aquamarine;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.aside header{
+    text-align: center;
+}
