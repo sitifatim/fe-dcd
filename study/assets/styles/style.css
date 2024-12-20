@@ -1,0 +1,106 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+h2, h3 {
+  color: #ddea89;
+}
+
+header {
+  display: inline;
+}
+  
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #ddea89;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav a{
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover{
+  font-weight: bold;
+}
+
+.profile header{
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile img{
+  width: 200px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 50px;
+  background-color: #cfdc75;
+  text-align: center;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+nav{
+  background-color: #bdca65;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+#content {
+  float: left;
+  width: 70%;
+}
+
+aside {
+  float: right;
+  width: 28%;
+  padding-left: 200px;
+}
+
+aside .card{
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  #content, aside {
+    width: 100%;
+    padding: 0;
+  }
+}
